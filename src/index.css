@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+  background-color: #5f2d91;
+}
+/*Header*/
+.banner {
+  background: #b38cf3;
+}
+
+/* Setting up the menu bar */
+
+.menubar {
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  z-index: 100;
+}
+
+.menubar > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+
+.menubar > ul > li {
+  float: right;
+}
+
+.menubar > ul > li a {
+  display: block;
+  color: grey;
+  text-align: center;
+
+  padding: 12px 14px;
+  text-decoration: none;
+  font-family: avenir;
+}
+
+.menubar > ul > li a:hover {
+  background-color: #5f2d91;
+  color: white;
+}
+
+/* ############################ */
+
+/* Setting up the welcome div */
+
+.welcome {
+  padding: 20px;
+  padding-top: 56px;
+  align-content: center;
+  background-color: blueviolet;
+}
+
+#ninjaFace {
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#welcomeTitle,
+#comingSoonTitle,
+#findNow {
+  font-family: avenir;
+  color: white;
+  text-align: center;
+}
+
+#comingSoonTitle {
+  font-style: italic;
+}
+
+/* ############################ */
+
+/* Setting up the about us div */
+
+.aboutUs {
+  background-color: #f2f2f2;
+  display: block;
+  align-items: center;
+  height: 30%;
+}
+
+#aboutUsTitle,
+#aboutUsDesc {
+  text-align: center;
+  font-family: avenir;
+  color: grey;
+}
+
+#aboutUsTitle {
+  padding-top: 20px;
+}
+
+#aboutUsDesc {
+  font-size: 20pt;
+  text-align: center;
+  align-content: center;
+  margin-right: 12%;
+  margin-left: 12%;
+}
+/* ############################ */
+
+/* Setting up the contact us div */
+
+.contactUs,
+.findUs {
+  background-color: #b38cf3;
+  position: static;
+  bottom: 30px;
+  width: 100%;
+
+  text-align: center;
+  font-family: avenir;
+  color: whitesmoke;
+}
+
+/* ############################ */
+
+/* Setting up the contact us option list div */
+
+#contactUsOptions {
+  list-style-type: none;
+  font-family: avenir;
+  color: whitesmoke;
+  line-height: 40px;
+}
+
+#contactUsOptions > li {
+  text-align: center;
+  width: 97%;
+}
+
+#contactUsOptions > li a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+/* ############################ */
